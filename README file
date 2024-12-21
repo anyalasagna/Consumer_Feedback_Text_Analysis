@@ -1,0 +1,24 @@
+# Consumer Feedback Text Analysis
+
+This project analyzes sentiment trends in Amazon product reviews using Linux-based text processing tools. The goal is to uncover patterns in consumer feedback and provide actionable insights.
+
+## Repository Contents
+1. **Data Files:**
+   - `small_reviews.csv`: Raw dataset of Amazon reviews.
+   - `reviews_only.txt`: Extracted text data from reviews.
+   - `lowercase_reviews.txt`: Reviews converted to lowercase.
+   - `cleaned.reviews.txt`: Fully cleaned data for analysis.
+   - `positive_words.txt`: List of positive sentiment words.
+   - `negative_words.txt`: List of negative sentiment words.
+
+2. **Scripts:**
+   - `data_cleaning.sh`: Bash script to clean and preprocess data.
+
+3. **Outputs:**
+   - `tokenized_words.txt`: Tokenized word list for analysis.
+
+## Instructions
+### To Clean and Preprocess Data
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YourUsername/Consumer_Feedback_Text_Analysis.git
